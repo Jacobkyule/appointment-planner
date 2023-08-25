@@ -46,7 +46,7 @@ input[type="submit"] {
   border: none;
   outline: none;
   padding: 10px 0;
-  width: 100%;
+  width: 50%;
   font-family: "Open Sans", sans-serif;
   margin-top: 10px;
   margin-bottom: 0px;
@@ -83,21 +83,15 @@ select {
   margin-bottom: 20px;
 }
 form {
-  width: 40%;
+  width: 50%;
   margin: 0 auto;
 }
+
+.heading {
+  text-align: center;
+}
+
 .button-container {
   display: flex;
   justify-content: center;
-}
-.submit-button {
-  background-color: aqua;
-  font-size: large;
-  border-radius: 10px;
-  padding: 10px;
-  width: 50%;
-  text-align: center;
-}
-.heading {
-  text-align: center;
 }

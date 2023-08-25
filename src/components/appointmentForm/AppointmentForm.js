@@ -71,7 +71,7 @@ export const AppointmentForm = ({
     </label>
     <br/>
     <div className="button-container">
-    <button type="submit" className="submit-button">Add Appointment</button>
+    <input type="submit" value="Submit" />
     </div>
     </form>
     </>

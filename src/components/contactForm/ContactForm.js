@@ -52,7 +52,7 @@ export const ContactForm = ({
     </label>
     <br />
     <div className="button-container">
-    <button type="submit" className="submit-button">Add Contact</button>
+    <input type="submit" value="Submit" />
     </div>
     </form>
     </>
