@@ -21,6 +21,7 @@ function Root() {
                 </NavLink>
             </nav>
             <Outlet/>
+            <hr className="divide"/>
             <p>@2023 | All Rights Reserved</p>
       </>
     );
