@@ -1,5 +1,5 @@
 import React from "react";
-const emailRegex = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i;
+
 
 
 export const ContactForm = ({
@@ -45,7 +45,6 @@ export const ContactForm = ({
     value={email}
     onChange={e => setEmail(e.target.value)}
     type="email"
-    pattern={emailRegex}
     placeholder="Enter Email Address"
     required
     />
