@@ -95,3 +95,14 @@ form {
   display: flex;
   justify-content: center;
 }
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 50px;
+  height: auto;
+  border-radius: 20%;
+}
